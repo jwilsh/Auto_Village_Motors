@@ -37,17 +37,13 @@ Use the internal data provided by Auto Village Motors to gain insights into the 
 - Data collected includes information about the vehicles sold such as the model, price, milage and fuel type.
 
 ### 2.2 Limitations of Data Set:
-- Data is collected 5 years ago in 2016. Users’ daily activity, fitness and sleeping habits, diet and food consumption may have changed since then. Data may not be timely or relevant.
-- Sample size of 30 FitBit users is not representative of the entire fitness population. The central limit theorem general rule of n≥30 applies and we can use the t test for statstic reference. However, a larger sample size is preferred for the analysis.
-- As data is collected in a survey, we are unable to ascertain its integrity or accuracy.
-- After further investigation with n_distinct() to check for unique user Id, the set has 33 user data from daily activity, 24 from sleep and only 8 from weight. There are 3 extra users and some users did not record their data for tracking daily activity and sleep.
-- For the 8 user data for weight, 5 users manually entered their weight and 3 recorded via a connected wifi device (eg: wifi scale).
-- Most data is recorded from Tuesday to Thursday, which may not be comprehensive enough to form an accurate analysis.
+- The dataset doesn't have a primary key so there is no way of recognising each row as a unique entry.
+- As data is collected by employees and entered manually, its difficult to calculate the amount of human error within the data.
+- The data only includes information about the sale price and not the buy price which will limit the amount of calculations that can be made.
 
 ### 2.3 Is Data ROCCC?
-A good data source is ROCCC which stands for Reliable, Original, Comprehensive, Current, and Cited.
 
-Reliable — LOW — Not reliable as it only has 30 respondents
+Reliable — LOW — Data was entered manually by employees
 
 Original — LOW — Third party provider (Amazon Mechanical Turk)
 
