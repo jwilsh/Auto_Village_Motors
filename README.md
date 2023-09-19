@@ -57,7 +57,7 @@ Cited — LOW — Companies own internal data.
 ### 2.4 Data Selection
 The following file has been provided and will be ued for all analysis.
 
-car_data.csv
+car_dekho.csv
 
 ### 2.5 Tool
 We are using SQL and MySQL for data cleaning and transformation. Tableau is being used for the visualisations.
@@ -67,7 +67,7 @@ We are using SQL and MySQL for data cleaning and transformation. Tableau is bein
 ### 3.1 Setting-Up the Environement
 A new schema is created with MySQL called 'cars'.
 ```
-NEW SCHEMA 'cars'
+NEW SCHEMA 'cars';
 ```
 
 ### 3.2 Importing the Dataset
@@ -78,17 +78,15 @@ The .cvs files from ealrier were uploaded onto this newly created dataset. Here 
 
 ![Preview 1]()
 
-You can check the structure of the data here
+You can check the details of the data here
 
 ![Preview 2]()
 
-The data contains 7000 entires.
+The data contains 7927 entires.
 ```
 SELECT COUNT(*) AS total_entries
- FROM Data_Cars
+ FROM car_dekho;
 ```
-
-![Preview 3]()
 
 ### 3.3 Data Cleaning and Manipulation
 Now that we are familiar with the structure of the data we can clean the data by checking for any errors.
