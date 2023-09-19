@@ -45,15 +45,14 @@ Use the internal data provided by Auto Village Motors to gain insights into the 
 
 Reliable — LOW — Data was entered manually by employees
 
-Original — LOW — Third party provider (Amazon Mechanical Turk)
+Original — HIGH — Origional Company Internal Data
 
-Comprehensive — MED — Parameters match most of Bellabeat products’ parameters
+Comprehensive — MED — All important information about the vehicles are included.
 
-Current — LOW — Data is 5 years old and may not be relevant
+Current — HIGH — Data has been collected from the opening of the busniess until now.
 
-Cited — LOW — Data collected from third party, hence unknown
+Cited — LOW — Companies own internal data.
 
-Overall, the dataset is considered bad quality data and it is not recommended to produce business recommendations based on this data.
 
 ### 2.4 Data Selection
 The following file is selected and copied for analysis.
