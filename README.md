@@ -2,20 +2,20 @@
 Portfolio Project - This is a project which follows a 2nd Hand Car Dealership looking into their own data which has been collected about the vehicles that have passed through their business.
 
 # Scenario
-Auto Village Motors are a 2nd hand car dealership
-Bellabeat is a high-tech manufacturer of health-focused products specifically for women. Bellabeqat is a successful small company, however they have a vision of becoming one of the major players in the global smart device market. The Co-founder of Bellabeat Urška Sršen, beleives that by analysing smart device fitness data can help unlock new growth opportunities for the company. 
-
-We will be looking at data from an existing dataset [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) to determine if there are any trends that we can identify. These insights will then be used to give high level recommendations to guide the marketing strategy for the company.
+Auto Village Motors are a 2nd hand car dealership in Manchester UK. They have lots of competition from other local car dealerships in the area and the arrival of a new deaership on the same street means that the business owner Clive has been looking into ways which he can improve his busniess. He wants to look into the companies past data to look for any potential ways to improve company performance.
 
 # 1.0 Ask
 
 ### 1.1 Business Task:
-Use the data provided in the [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) dataset to gain insights into how people use non-Bellabeat smart devices. Use these insights to help guide the marketing strategy for the company.
+Use the internal data provided by Auto Village Motors to gain insights into the vehicles that the company has sold in previous years. Use these insights to help guide some new strategies for the company.
 
 ### 1.2 Business Objectives:
-- What are some trends in smart device usage?
-- How could these trends apply to Bellabeat customers?
-- How could these trends help influence Bellabeat marketing strategy?
+- 
+- 
+- 
+- 
+- 
+- 
 
 ### 1.3 Deliverables:
 - A clear summary of the business task
@@ -27,9 +27,7 @@ Use the data provided in the [FitBit Fitness Tracker Data](https://www.kaggle.co
 
 ### 1.4 Key Stakeholders:
 - **Clive Warren:** Auto Village Motor's owner and founder
-- **Sando Mur:** Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team
-- **Bellabeat marketing analytics team:** A team of data analysts responsible for collecting, analyzing, and
-reporting data that helps guide Bellabeat’s marketing strategy.
+- **Auto Village Motors Sales team:** A team of sales representaties which dictate the companies sales.
 
 # 2.0 Prepare
 
