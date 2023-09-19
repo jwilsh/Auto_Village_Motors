@@ -10,12 +10,13 @@ Auto Village Motors are a 2nd hand car dealership in Manchester UK. They have lo
 Use the internal data provided by Auto Village Motors to gain insights into the vehicles that the company has sold in previous years. Use these insights to help guide some new strategies for the company.
 
 ### 1.2 Business Objectives:
-- 
-- 
-- 
-- 
-- 
-- 
+- How many cars will be available in 2023?
+- How many cars were available in 2020, 2021, 2022?
+- Show the total amount of cars by year.
+- How many diesel cars were there in 2020?
+- How many diesel cars were there in 2020
+- Which years had more than 100 cars?
+- Complete list of all car details between 2015 and 2023.
 
 ### 1.3 Deliverables:
 - A clear summary of the business task
@@ -33,7 +34,7 @@ Use the internal data provided by Auto Village Motors to gain insights into the 
 
 ### 2.1 Information on Data Source:
 - Data has been provided by the company owner with his permission to use and share it. The data is stored on a .csv file.
-- The data has been stored manually by employees between 2017 and 2023.
+- The data has been stored manually by employees between 1994 and 2023.
 - Data collected includes information about the vehicles sold such as the model, price, milage and fuel type.
 
 ### 2.2 Limitations of Data Set:
@@ -115,8 +116,18 @@ After checking for dirty data its now time for some data manipultion to get it r
 - Rearrange and rename columns.
 
 ```
-ALTER TABLE `bellebeat-capstone-case-study.FitBit_Fitness_Tracker_Data.dailyActivity` 
-ADD COLUMN DayOfTheWeek DATE;
+--  Add new Column for Primary Key --
+SELECT *,
+ROW_NUMBER() OVER (ORDER BY year, Name) AS ID
+FROM car_dekho
+ORDER BY year, Name;
+
+-- Set column as Primary Key --
+ALTER TABLE car_dekho ADD PRIMARY KEY (ID);
+
+-- rearrange columns so that primary key is on the far left --
+ALTER TABLE car_dekho
+MODIFY COLUMN ID TEXT FIRST;
 ```
 
 # 4.0 Analyse
