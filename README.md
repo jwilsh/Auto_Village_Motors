@@ -55,12 +55,12 @@ Cited — LOW — Companies own internal data.
 
 
 ### 2.4 Data Selection
-The following file is selected and copied for analysis.
+The following file has been provided and will be ued for all analysis.
 
-dailyActivity_merged.csv
+car_data.csv
 
 ### 2.5 Tool
-We are using BigQuery in Google Cloud for data cleaning and transformation. Tableau is being used for the visualisations.
+We are using SQL and MySQL for data cleaning and transformation. Tableau is being used for the visualisations.
 
 # 3.0 Process
 
