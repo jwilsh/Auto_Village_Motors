@@ -65,10 +65,10 @@ We are using SQL and MySQL for data cleaning and transformation. Tableau is bein
 # 3.0 Process
 
 ### 3.1 Setting-Up the Environement
-A new project is created withtin BigQuery whith a relevent title for the project 'bellebeat-capstone-case-study'. We then created a new dataset within the project with the title 'FitBit_Fitness_Tracker_Data
-'.
-
-![Preparing the Environement](https://github.com/jwilsh/Bellabeat_Case_Study/assets/98908958/0e7d8993-7c6e-4e1e-a5a2-45e072718bcd)
+A new schema is created with MySQL called 'cars'.
+```
+NEW SCHEMA 'cars'
+```
 
 ### 3.2 Importing the Dataset
 The .cvs files from ealrier were uploaded onto this newly created dataset.
@@ -76,15 +76,19 @@ The .cvs files from ealrier were uploaded onto this newly created dataset.
 ### 3.2 Preview the Data and it's Structure
 The .cvs files from ealrier were uploaded onto this newly created dataset. Here you can see a preview of the dataset.
 
-![Data Preview 2](https://github.com/jwilsh/Bellabeat_Case_Study/assets/98908958/dae534ce-65a4-4257-bb4a-d56fbeb27647)
+![Preview 1]()
 
-You can check the structure of the data in the 'schema' tab.
+You can check the structure of the data here
 
-![Data Preview 1](https://github.com/jwilsh/Bellabeat_Case_Study/assets/98908958/e430154c-bc89-4460-842f-597fe0466dd2)
+![Preview 2]()
 
-Information of the data including how many rows it contains in the 'Details' tab.
+The data contains 7000 entires.
+```
+SELECT COUNT(*) AS total_entries
+ FROM Data_Cars
+```
 
-![Data Preview 3](https://github.com/jwilsh/Bellabeat_Case_Study/assets/98908958/b0af7b7e-3296-43e3-a8c0-0f101db2e3ed)
+![Preview 3]()
 
 ### 3.3 Data Cleaning and Manipulation
 Now that we are familiar with the structure of the data we can clean the data by checking for any errors.
