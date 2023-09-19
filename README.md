@@ -73,7 +73,7 @@ NEW SCHEMA 'cars'
 ### 3.2 Importing the Dataset
 The .cvs files from ealrier were uploaded onto this newly created dataset.
 
-### 3.2 Preview the Data and it's Structure
+### 3.3 Preview the Data and it's Structure
 The .cvs files from ealrier were uploaded onto this newly created dataset. Here you can see a preview of the dataset.
 
 ![Preview 1]()
@@ -93,38 +93,26 @@ SELECT COUNT(*) AS total_entries
 ### 3.3 Data Cleaning and Manipulation
 Now that we are familiar with the structure of the data we can clean the data by checking for any errors.
 
-### 3.3.1 Check the number of participants for each data set
-Its important to check that the same amount of participants have participated in all of our datasets.
-```
-SELECT COUNT(distinct Id)
- FROM `bellebeat-capstone-case-study.FitBit_Fitness_Tracker_Data.dailyActivity`
-```
-
-
-
-### 3.3.2 Check Data for null or Missing Values
+### 3.3.1 Check Data for null or Missing Values
 All columns were checked for Null data or missing values. However none were found.
-
 ```
-SELECT Id
+SELECT *
 
-FROM `bellebeat-capstone-case-study.FitBit_Fitness_Tracker_Data.dailyActivity` 
+FROM Data_cars
 
-WHERE Id is null
+WHERE * is null
 ```
-
 
 ### 3.3.2 Check If Correct Datatypes are Applied
-Luckily all of the collumns have the correct data type applied so there will be no need to chnage these.
+- The dataset contains no primary key so the first step is to create one.
+- Several columns such as the sale price, milage and engine size are labbeled with the 'text' datatype. They will be changed to 'integer' datatype instead.
 
 ### 3.4 Data Manipulation & Transformation
 After checking for dirty data its now time for some data manipultion to get it ready for some analysis. Below are the steps I took in order to transform the data ready to create some visualisations with.
 
-- Create new column DayOfTheWeek by generating date in the form of day of the week for further analysis.
+- Create primary key
 
-- Create new column TotalMinutes being the sum of VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes and SedentaryMinutes.
-
-- Create new column TotalHours by converting new column TotalMinutes to number of hours.
+- Change datatypes of several columns such as sale price, milage, engine size.
 
 - Rearrange and rename columns.
 
