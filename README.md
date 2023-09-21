@@ -226,5 +226,12 @@ WHERE year BETWEEN 2015 AND 2023;
 4124 were at the dealership between 2015 and 2023.
 
 # 5.0 Share
+After exploring and analysing the data we were able to answer the questons asked by the business owner. In this section we will share some of the insights that we have gained whilst working with the dataset.
+
+![Chart 1]()
+
+![Chart 2]()
+
+![Chart 3]()
 
 # 6.0 Act
