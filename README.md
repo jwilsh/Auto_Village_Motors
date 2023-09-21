@@ -2,7 +2,7 @@
 Portfolio Project - This is a project which follows a 2nd Hand Car Dealership looking into their own data which has been collected about the vehicles that have passed through their business.
 
 # Scenario
-Auto Village Motors are a 2nd hand car dealership in Manchester UK. They have lots of competition from other local car dealerships in the area and the arrival of a new deaership on the same street means that the business owner Clive has been looking into ways which he can improve his busniess. He wants to look into the companies past data to look for any potential ways to improve company performance.
+Auto Village Motors are a 2nd hand car dealership in Manchester UK. Their perfomance over recent years has dropped drastically. They have lots of competition from other local car dealerships in the area and the arrival of a new deaership on the same street means that the business owner Clive has been looking into ways which he can improve his busniess. He wants to look into the companies past data to look for any potential ways to improve company performance.
 
 # 1.0 Ask
 
