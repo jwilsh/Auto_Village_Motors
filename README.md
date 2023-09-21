@@ -97,9 +97,9 @@ All columns were checked for Null data or missing values. However none were foun
 ```
 SELECT *
 
-FROM Data_cars
+FROM car_dekho
 
-WHERE * is null
+WHERE * is null;
 ```
 
 ### 3.3.2 Check If Correct Datatypes are Applied
@@ -131,6 +131,49 @@ MODIFY COLUMN ID TEXT FIRST;
 ```
 
 # 4.0 Analyse
+
+### 4.1 Answering Busniess Questions
+
+Using the cleaned and transformed data, we will now answer the busniess questions asked by the company owner.
+
+- How many cars will be available in 2023?
+```
+SELECT COUNT(*)
+
+FROM car_dekho
+
+WHERE year = 2023;
+```
+6 cars were avalable in the dealership in 2023.
+
+
+- How many cars were available in 2020, 2021, 2022?
+```
+SELECT COUNT(*) FROM car_dekho WHERE year = 2020; 
+SELECT COUNT(*) FROM car_dekho WHERE year = 2021; 
+SELECT COUNT(*) FROM car_dekho WHERE year = 2022; 
+```
+74 cars were avalable in the dealership in 2020, 7 in 2021 and 7 in 2022.
+
+- Show the total amount of cars by year from 2020-2023.
+```
+SELECT COUNT(*)
+
+FROM car_dekho
+
+WHERE year = 2023;
+```
+SELECT year, COUNT(*) AS Total_Cars 
+
+FROM car_dekho 
+
+WHERE year IN(2020, 2021, 2022, 2023)
+
+GROUP BY year;
+```
+
+![Table 1]()
+
 
 # 5.0 Share
 
