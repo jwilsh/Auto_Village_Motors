@@ -77,11 +77,11 @@ The .cvs files from ealrier were uploaded onto this newly created dataset.
 ### 3.3 Preview the Data and it's Structure
 The .cvs files from ealrier were uploaded onto this newly created dataset. Here you can see a preview of the dataset.
 
-![Preview 1]()
+![Preview 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8a28f246-4960-416f-8d15-5ff37579dfba)
 
 You can check the details of the data here
 
-![Preview 2]()
+![Preview 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/f5ffbe58-66e7-42e5-be79-c26759750cc5)
 
 The data contains 7927 entires.
 ```
@@ -171,7 +171,7 @@ WHERE year IN(2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023)
 GROUP BY year;
 ```
 
-![Table 1]()
+![table 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/9fa4db6b-6634-43c0-9c24-92b1112189f9)
 
 
 - How many diesel cars were there in 2020?
@@ -209,7 +209,7 @@ GROUP BY year
 HAVING COUNT(*) > 100;
 ```
 
-![Table 2]()
+![table 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/872ae682-17b2-48ce-8a3c-2df5c3d23815)
 
 14 years had a total of more than 100 cars.
 
@@ -228,10 +228,10 @@ WHERE year BETWEEN 2015 AND 2023;
 # 5.0 Share
 After exploring and analysing the data we were able to answer the questons asked by the business owner. In this section we will share some of the insights that we have gained whilst working with the dataset.
 
-![Chart 1]()
+![Chart 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8c98a2ba-fe41-4dad-ba28-6a802a1e8492)
 
-![Chart 2]()
+![Chart 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8af99b7b-ec61-419a-92c3-85f8b112e03a)
 
-![Chart 3]()
+![Chart 3](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8d87f508-9196-411e-9ce7-76a441052c39)
 
 # 6.0 Act
