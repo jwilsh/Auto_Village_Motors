@@ -136,6 +136,7 @@ MODIFY COLUMN ID TEXT FIRST;
 
 Using the cleaned and transformed data, we will now answer the busniess questions asked by the company owner.
 
+
 - How many cars will be available in 2023?
 ```
 SELECT COUNT(*)
@@ -149,11 +150,15 @@ WHERE year = 2023;
 
 - How many cars were available in 2020, 2021, 2022?
 ```
-SELECT COUNT(*) FROM car_dekho WHERE year = 2020; 
-SELECT COUNT(*) FROM car_dekho WHERE year = 2021; 
-SELECT COUNT(*) FROM car_dekho WHERE year = 2022; 
+SELECT 
+(SELECT COUNT(*) FROM car_dekho WHERE year = 2020) AS '2020',
+(SELECT COUNT(*) FROM car_dekho WHERE year = 2021) AS '2021',
+(SELECT COUNT(*) FROM car_dekho WHERE year = 2022) AS '2022'
+FROM car_dekho
+LIMIT 1;
 ```
 74 cars were avalable in the dealership in 2020, 7 in 2021 and 7 in 2022.
+
 
 - Show the total amount of cars by year from 2015-2023.
 ```
@@ -168,6 +173,7 @@ GROUP BY year;
 
 ![Table 1]()
 
+
 - How many diesel cars were there in 2020?
 ```
 SELECT COUNT(*) 
@@ -178,6 +184,46 @@ WHERE year = 2020 AND fuel = 'Diesel';
 ```
 
 20 cars were Diesel in 2020.
+
+
+- How many petrol cars were there in 2020?
+```
+SELECT COUNT(*) 
+
+FROM car_dekho 
+
+WHERE year = 2020 AND fuel = 'Petrol';
+```
+
+20 cars were Diesel in 2020.
+
+
+- Which years had more than 100 cars?
+```
+SELECT year, COUNT(*) AS 'Quantity'
+
+FROM car_dekho 
+
+GROUP BY year
+
+HAVING COUNT(*) > 100;
+```
+
+![Table 2]()
+
+14 years had a total of more than 100 cars.
+
+
+- How many cars were at the dealership between 2015 and 2023.
+```
+SELECT COUNT(*)
+
+FROM car_dekho 
+
+WHERE year BETWEEN 2015 AND 2023;
+```
+
+4124 were at the dealership between 2015 and 2023.
 
 # 5.0 Share
 
