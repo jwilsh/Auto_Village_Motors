@@ -68,7 +68,7 @@ We are using SQL and MySQL for data cleaning and transformation. Tableau is bein
 ### 3.1 Setting-Up the Environement
 A new schema is created with MySQL called 'cars'.
 ```
-NEW SCHEMA 'cars';
+CREATE SCHEMA 'cars';
 ```
 
 ### 3.2 Importing the Dataset
