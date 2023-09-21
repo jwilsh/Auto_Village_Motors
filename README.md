@@ -223,15 +223,27 @@ FROM car_dekho
 WHERE year BETWEEN 2015 AND 2023;
 ```
 
-4124 were at the dealership between 2015 and 2023.
+4124 cars were at the dealership between 2015 and 2023.
 
 # 5.0 Share
 After exploring and analysing the data we were able to answer the questons asked by the business owner. In this section we will share some of the insights that we have gained whilst working with the dataset.
 
+The .csv files from MySQL have been uploaded into Tableau ready to create some visualisations.
+
 ![Chart 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8c98a2ba-fe41-4dad-ba28-6a802a1e8492)
+
+This first chart shows the total number of cars sold each year. The graph demonstrates that the company was expanding and peroming gradually better each year from when it started right up until 2017. This shows that the difference in how the company was run prior to 2017 and afterwards has had a significant impact on how the company has been performing. This is something that the owner will need to look into.
 
 ![Chart 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8af99b7b-ec61-419a-92c3-85f8b112e03a)
 
+The next graph shows the gros profit from car sales each year. From this visualisation we can see that it also exponetially improves over time  but this time right up until 2018 before having a sharp decline eversince.
+
 ![Chart 3](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8d87f508-9196-411e-9ce7-76a441052c39)
 
+This comparison chart shows how the 2 different graphs correlate with each other since selling more cars will generally mean more gros profit. However as we can see from the 2017 to 2018 period, it is possible to sell less cars and still make more profit if more expensive cars are sold at a higher selling price.
+
 # 6.0 Act
+Conclusions after working with this dataset:
+- Between 2009-2017 was when the company performed at its best. The company needs to review how their busniess operated during this period and compare it to now and see what has changed.
+- Selling more expensive cars for a higher profit margin is the best way to improve overall profit. The sales team should focus on this instead of trying to sell a large amount of cheaper cars.
+- Petrol cars bring in the most profit for the company, the sales team should focus mainly on trying to sell petrol vehicles.
