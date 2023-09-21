@@ -230,11 +230,11 @@ After exploring and analysing the data we were able to answer the questons asked
 
 The .csv files from MySQL have been uploaded into Tableau ready to create some visualisations.
 
-![Chart 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8c98a2ba-fe41-4dad-ba28-6a802a1e8492)
+![Chart 1](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/a032858b-1afc-4c87-b6d8-b17adeff9a5c)
 
 This first chart shows the total number of cars sold each year. The graph demonstrates that the company was expanding and peroming gradually better each year from when it started right up until 2017. This shows that the difference in how the company was run prior to 2017 and afterwards has had a significant impact on how the company has been performing. This is something that the owner will need to look into.
 
-![Chart 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/8af99b7b-ec61-419a-92c3-85f8b112e03a)
+![Chart 2](https://github.com/jwilsh/Auto_Village_Motors/assets/98908958/6dfb2332-6448-4c4b-87fb-196b1de49699)
 
 The next graph shows the gros profit from car sales each year. From this visualisation we can see that it also exponetially improves over time  but this time right up until 2018 before having a sharp decline eversince.
 
