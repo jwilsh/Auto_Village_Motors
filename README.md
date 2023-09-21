@@ -14,7 +14,7 @@ Use the internal data provided by Auto Village Motors to gain insights into the 
 - How many cars were available in 2020, 2021, 2022?
 - Show the total amount of cars by year.
 - How many diesel cars were there in 2020?
-- How many diesel cars were there in 2020
+- How many petrol cars were there in 2020?
 - Which years had more than 100 cars?
 - Complete list of all car details between 2015 and 2023.
 
@@ -155,25 +155,29 @@ SELECT COUNT(*) FROM car_dekho WHERE year = 2022;
 ```
 74 cars were avalable in the dealership in 2020, 7 in 2021 and 7 in 2022.
 
-- Show the total amount of cars by year from 2020-2023.
-```
-SELECT COUNT(*)
-
-FROM car_dekho
-
-WHERE year = 2023;
+- Show the total amount of cars by year from 2015-2023.
 ```
 SELECT year, COUNT(*) AS Total_Cars 
 
 FROM car_dekho 
 
-WHERE year IN(2020, 2021, 2022, 2023)
+WHERE year IN(2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023) 
 
 GROUP BY year;
 ```
 
 ![Table 1]()
 
+- How many diesel cars were there in 2020?
+```
+SELECT COUNT(*) 
+
+FROM car_dekho 
+
+WHERE year = 2020 AND fuel = 'Diesel';
+```
+
+20 cars were Diesel in 2020.
 
 # 5.0 Share
 
